@@ -14,8 +14,10 @@ var promiseStrings = new Promise(function (fulfill, reject) {
 const asyncYolo = (input) => {
 
   // Your future job begins here ...
-
+  console.log("BBBBBBBBB" + input);
 }
+
+promiseStrings.then(asyncYolo);
 
 module.exports = {
   asyncYolo: asyncYolo,
